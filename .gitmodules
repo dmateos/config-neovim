@@ -22,3 +22,9 @@
 [submodule "pack/dman/start/vim-supertab"]
 	path = pack/dman/start/vim-supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "pack/dman/start/vim-checksyntax"]
+	path = pack/dman/start/vim-checksyntax
+	url = https://github.com/tomtom/checksyntax_vim
+[submodule "pack/dman/start/vim-airline"]
+	path = pack/dman/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
