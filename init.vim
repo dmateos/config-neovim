@@ -24,6 +24,9 @@ set number
 " F = skip file info prompt when opening file
 set shortmess=IF
 
+" Smart indent
+set smartindent
+
 " display invisible characters as per 'listchars' option
 "set list
 
