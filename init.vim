@@ -29,6 +29,7 @@ set smartindent
 
 " display invisible characters as per 'listchars' option
 "set list
+set listchars=tab:>-,trail:-
 
 
 """"""""""
