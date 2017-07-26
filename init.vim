@@ -102,6 +102,7 @@ autocmd FileType ruby inoreabbrev <buffer> pry! require "pry"; binding.pry
 " ctrlp.vim
 " when opening multiple files, prompt for tab/split/etc.
 let g:ctrlp_arg_map = 1
+nnoremap <leader>ga :CtrlP <cr>
 
 " vim-go
 if executable("goimports")
