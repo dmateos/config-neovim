@@ -25,7 +25,7 @@ set number
 set shortmess=IF
 
 " display invisible characters as per 'listchars' option
-set list
+"set list
 
 
 """"""""""
@@ -92,7 +92,6 @@ let g:is_bash=1
 
 autocmd FileType ruby inoreabbrev <buffer> pry! require "pry"; binding.pry
 
-
 """""""""
 " plugins
 
@@ -104,3 +103,8 @@ let g:ctrlp_arg_map = 1
 if executable("goimports")
   let g:go_fmt_command = "goimports"
 endif
+
+" nerd-tree
+nmap <silent> <leader>n :NERDTree<CR>
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
