@@ -28,3 +28,6 @@
 [submodule "pack/dman/start/vim-gnugpg"]
 	path = pack/dman/start/vim-gnugpg
 	url = https://github.com/jamessan/vim-gnupg.git
+[submodule "pack/dman/start/vim-puppet"]
+	path = pack/dman/start/vim-puppet
+	url = https://github.com/rodjek/vim-puppet.git
