@@ -31,3 +31,6 @@
 [submodule "pack/dman/start/vim-puppet"]
 	path = pack/dman/start/vim-puppet
 	url = https://github.com/rodjek/vim-puppet.git
+[submodule "pack/dman/start/vim-python"]
+	path = pack/dman/start/vim-python
+	url = https://github.com/python-mode/python-mode.git
