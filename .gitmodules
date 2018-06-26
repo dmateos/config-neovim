@@ -34,3 +34,6 @@
 [submodule "pack/dman/start/vim-python"]
 	path = pack/dman/start/vim-python
 	url = https://github.com/python-mode/python-mode.git
+[submodule "pack/dman/start/vim-autopep8"]
+	path = pack/dman/start/vim-autopep8
+	url = https://github.com/tell-k/vim-autopep8.git

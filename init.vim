@@ -6,6 +6,8 @@ let g:jellybeans_overrides = {"background": {"guibg": "000000"}}
 let g:jellybeans_use_term_italics = 1
 colorscheme jellybeans
 
+set nofoldenable
+
 " vertical split color
 autocmd ColorScheme * highlight VertSplit ctermfg=235 ctermbg=235 cterm=NONE
 
@@ -114,4 +116,5 @@ nmap <silent> <leader>n :NERDTree<CR>
 autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeIgnore = ['\.pyc$']
-
+let g:pymode_lint_write = 0 
+set completeopt=menu
