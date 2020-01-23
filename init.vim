@@ -116,5 +116,7 @@ nmap <silent> <leader>n :NERDTree<CR>
 autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeIgnore = ['\.pyc$']
-let g:pymode_lint_write = 0 
 set completeopt=menu
+let g:pymode_python = 'python3'
+let g:pymode_lint_ignore = ["E501", "C901"]
+

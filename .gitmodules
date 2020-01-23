@@ -37,3 +37,6 @@
 [submodule "pack/dman/start/vim-autopep8"]
 	path = pack/dman/start/vim-autopep8
 	url = https://github.com/tell-k/vim-autopep8.git
+[submodule "pack/dman/start/gruvbox"]
+	path = pack/dman/start/gruvbox
+	url = https://github.com/morhetz/gruvbox
