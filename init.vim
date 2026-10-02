@@ -83,6 +83,7 @@ set hidden
 " lines to keep above/below cursor when scrolling
 set scrolloff=3
 
+
 " Show effect of command incrementally; :%s/foo/bar/g etc
 "nosplit": Shows the effects of a command incrementally, as you type.
 "split"  : Also shows partial off-screen results in a preview window.
@@ -118,5 +119,5 @@ autocmd StdinReadPre * let s:std_in=1
 let NERDTreeIgnore = ['\.pyc$']
 set completeopt=menu
 let g:pymode_python = 'python3'
-let g:pymode_lint_ignore = ["E501", "C901"]
+let g:pymode_lint_ignore = ["E501", "C901", "W605"]
 
