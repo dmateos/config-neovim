@@ -4,7 +4,6 @@ local opt = vim.opt
 opt.termguicolors = true
 opt.number = true
 opt.cursorline = true
-opt.colorcolumn = "81" -- notch after column 80
 opt.signcolumn = "yes" -- stop gitsigns/diagnostics shifting the text
 opt.foldenable = false
 opt.shortmess:append("IF") -- I = no intro message, F = no file info on open
